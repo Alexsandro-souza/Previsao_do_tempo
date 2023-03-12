@@ -1,58 +1,27 @@
-<!DOCTYPE html>
-<html lang="pet-br">
+<!--<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="projeto_teste/css/style.css">
-    <!--Consulta de icone-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--Modelo de fonte-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
-     <title>clima</title>
+    <title>Previsao_do_tempo</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-     <h2>Previsão do clima</h2>
-     <div class="conteiner">
-        <div class="form">
-            <h3>Confira o clima de uma cidade:</h3>
-            <div class="form-input-container">
-                <input type="text" placeholder="Digite o nome da cidade" id="city-input">
-                <button id="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-
-                </button>
-
-            </div>
-
+    <main>
+        <header class="cab.input">
+            <input type="text" placeholder="Digite a cidade procurada"/>
+            <button type="submit">Procurar</button>
+        </header>
+        <div class="conteudo">  # Criar stylo display: none 
+            <section>
+                <h2 id= "Cidade"></h2>
+                <span id="grau"></span> # no modelo o id está degree 
+            </section>
+            <img src="" alt="Clima"/>  
         </div>
-     </div>
-     <div id="wether-data">
-        <h2>
-            <i class="fa-solid fa-location-dot"></i>
-            <span id="city">Petrolina</span>
-            <img src="" alt="Bandeira do país" id="country">
-        </h2>
-        <p id="temperature"><span>38</span>&deg;C</p>
-        <div id="description-container">
-            <p id="description">Nublado</p>
-            <img src="" alt="Condições do tempo" id="wether-icon"/>
-
-        </div>
-        <div id="details-container"></div>
-        <p id="humidity">
-            <i class="fa-solid fa-droplet"></i>
-            <span>48%</span>
-        </p>
-        <p id="wind">
-            <i class="fa-solid fa-wind"></i>
-            <span>3km/h</span>
-        </p>
-
-     </div>
-
-    <script src="projeto_teste/js/script.js"></script>
+    </main>
+  
+    <script src="js/script.js"></script>
 </body>
 </html>

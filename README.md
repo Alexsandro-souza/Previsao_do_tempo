@@ -14,22 +14,13 @@
 <ol>
 <li>Criar os elementos HTML de acordo a necessidade do projeto</li>
     <ul>
-    <li>Modelo está abaixo</li>
+    <li>Definir as classes para melhor otimização do Css</li>
     </ul>
-<li>Estilizar projeto</li>
+<li>Estilo do projeto</li>
     <ul>
-    <li>Utilizar como modelo painel de tempo da google</li>
+    <li>Definir um modelo de painel</li>
+    <li>Criar elementos do painel</li>
+    <li>Estilizar elementos</li>
     </ul>
 <li>Conectar o projeto à API OpenWeather</li>
-
-
-
-
 </ol>
-
-<h4><strong>Modelo</h4></strong></br>
-![Logo do Markdown] https://u3r3f6s2.rocketcdn.me/wp-content/uploads/2022/12/image-319.png.webp </br>
-<h4>Rerencia</h4>
-[Link para referencia do projeto_2.Previsão do tempo](https://blog.betrybe.com/javascript/projetos-em-javascript/"Acesso ao blog betrybe")
-
-![isyoutube](https://www.youtube.com/watch?v=VS8EBgPwsSU)
